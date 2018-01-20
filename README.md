@@ -30,24 +30,28 @@ https://github.com/sowa-io
 
 ### Start ELK Stack
 
+- Open config/kibana.yml in an editor
+- Set elasticsearch.url to point at your Elasticsearch instance
+
+
+
 
 
 ```markdown
-From Terminal 
+1.From Terminal 1
 
 Run `bin/elasticsearch` (http://localhost:9200)
 
 
+2.From Terminal 2
 
-- Bulleted
-- List
+Run `bin/kibana` (http://localhost:5601)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+3.From Terminal 3
 
-[Link](url) and ![Image](src)
+Run `bin/logstash -f logstash.conf` 
+
 ```
 
 
