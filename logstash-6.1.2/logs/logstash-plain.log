@@ -1,0 +1,4 @@
+[2018-01-20T12:54:11,138][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/home/sergio/Desktop/sowa/stack/ELK-sowa.io_linux_amd64/logstash-6.1.2/modules/fb_apache/configuration"}
+[2018-01-20T12:54:11,142][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/home/sergio/Desktop/sowa/stack/ELK-sowa.io_linux_amd64/logstash-6.1.2/modules/netflow/configuration"}
+[2018-01-20T12:54:11,178][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.queue", :path=>"/home/sergio/Desktop/sowa/stack/ELK-sowa.io_linux_amd64/logstash-6.1.2/data/queue"}
+[2018-01-20T12:54:11,179][INFO ][logstash.setting.writabledirectory] Creating directory {:setting=>"path.dead_letter_queue", :path=>"/home/sergio/Desktop/sowa/stack/ELK-sowa.io_linux_amd64/logstash-6.1.2/data/dead_letter_queue"}

@@ -43,7 +43,7 @@ export function Home({ addBasePath, directories }) {
           >
             <KuiFlexItem>
               <h1 className="kuiTitle">
-                Welcome to Kibana
+                Welcome to Kibana 
               </h1>
             </KuiFlexItem>
 
