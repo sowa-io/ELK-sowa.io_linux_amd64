@@ -26,7 +26,7 @@ java -version
 ```
 
 
-https://github.com/sowa-io
+
 
 ### Start ELK Stack
 
@@ -58,4 +58,4 @@ Run `bin/logstash -f logstash.conf`
 
 ### Support or Contact
 
-Having trouble with this distribution ? [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with this distribution ? [contact support](mailto:info@sowa.io) and we’ll help you sort it out.
