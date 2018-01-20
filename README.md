@@ -52,6 +52,15 @@ Run `bin/kibana` (http://localhost:5601)
 
 Run `bin/logstash -f logstash.conf` 
 
+
+
+***optional***
+-Run Grafana [more info](https://grafana.com/) 
+
+4.From Terminal 4
+
+Run `bin/grafana-server`  (localhost:3000  admin/admin) 
+
 ```
 
 
