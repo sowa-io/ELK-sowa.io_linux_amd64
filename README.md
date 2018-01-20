@@ -3,16 +3,41 @@
 
 ### Requeriments
 
-### Setup
+```
+# Oracle Java 8 (Oracle JDK version 1.8.0_73 onwards) should be installed.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. Add Oracle Java PPA (Personal Package Archive) to apt repository list:
+
+sudo add-apt-repository -y ppa:webupd8team/java
+
+2. Update the apt package database to include all the latest files under the packages:
+
+sudo apt-get update
+
+3. Install the latest version of Oracle Java 8:
+
+sudo apt-get -y install oracle-java8-installer
+
+4. To check whether Java has successfully installed, type the following command
+into the terminal:
+
+java -version
+
+```
+
+
+https://github.com/sowa-io
+
+### Start ELK Stack
+
+
 
 ```markdown
-Syntax highlighted code block
+From Terminal 
 
-# Header 1
-## Header 2
-### Header 3
+# Run `bin/elasticsearch` (http://localhost:9200)
+
+
 
 - Bulleted
 - List
