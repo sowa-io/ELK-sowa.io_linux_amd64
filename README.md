@@ -35,7 +35,7 @@ https://github.com/sowa-io
 ```markdown
 From Terminal 
 
-# Run `bin/elasticsearch` (http://localhost:9200)
+Run `bin/elasticsearch` (http://localhost:9200)
 
 
 
