@@ -166,3 +166,51 @@
 [2018-01-20T13:37:17,418][INFO ][o.e.n.Node               ] [9eHyL-E] stopped
 [2018-01-20T13:37:17,418][INFO ][o.e.n.Node               ] [9eHyL-E] closing ...
 [2018-01-20T13:37:17,463][INFO ][o.e.n.Node               ] [9eHyL-E] closed
+[2018-01-20T15:49:07,363][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-01-20T15:49:07,761][INFO ][o.e.e.NodeEnvironment    ] [9eHyL-E] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [18.2gb], net total_space [289.4gb], types [ext4]
+[2018-01-20T15:49:07,762][INFO ][o.e.e.NodeEnvironment    ] [9eHyL-E] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-01-20T15:49:07,765][INFO ][o.e.n.Node               ] node name [9eHyL-E] derived from node ID [9eHyL-E1RUu7EV14o9LVfg]; set [node.name] to override
+[2018-01-20T15:49:07,765][INFO ][o.e.n.Node               ] version[6.1.2], pid[15962], build[5b1fea5/2018-01-10T02:35:59.208Z], OS[Linux/4.13.0-26-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+[2018-01-20T15:49:07,766][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/sergio/Desktop/sowa/stack/ELK-sowa.io_linux_amd64/elasticsearch-6.1.2, -Des.path.conf=/home/sergio/Desktop/sowa/stack/ELK-sowa.io_linux_amd64/elasticsearch-6.1.2/config]
+[2018-01-20T15:49:09,957][INFO ][o.e.p.PluginsService     ] [9eHyL-E] loaded module [aggs-matrix-stats]
+[2018-01-20T15:49:09,957][INFO ][o.e.p.PluginsService     ] [9eHyL-E] loaded module [analysis-common]
+[2018-01-20T15:49:09,958][INFO ][o.e.p.PluginsService     ] [9eHyL-E] loaded module [ingest-common]
+[2018-01-20T15:49:09,958][INFO ][o.e.p.PluginsService     ] [9eHyL-E] loaded module [lang-expression]
+[2018-01-20T15:49:09,958][INFO ][o.e.p.PluginsService     ] [9eHyL-E] loaded module [lang-mustache]
+[2018-01-20T15:49:09,958][INFO ][o.e.p.PluginsService     ] [9eHyL-E] loaded module [lang-painless]
+[2018-01-20T15:49:09,959][INFO ][o.e.p.PluginsService     ] [9eHyL-E] loaded module [mapper-extras]
+[2018-01-20T15:49:09,959][INFO ][o.e.p.PluginsService     ] [9eHyL-E] loaded module [parent-join]
+[2018-01-20T15:49:09,959][INFO ][o.e.p.PluginsService     ] [9eHyL-E] loaded module [percolator]
+[2018-01-20T15:49:09,959][INFO ][o.e.p.PluginsService     ] [9eHyL-E] loaded module [reindex]
+[2018-01-20T15:49:09,960][INFO ][o.e.p.PluginsService     ] [9eHyL-E] loaded module [repository-url]
+[2018-01-20T15:49:09,960][INFO ][o.e.p.PluginsService     ] [9eHyL-E] loaded module [transport-netty4]
+[2018-01-20T15:49:09,960][INFO ][o.e.p.PluginsService     ] [9eHyL-E] loaded module [tribe]
+[2018-01-20T15:49:09,961][INFO ][o.e.p.PluginsService     ] [9eHyL-E] no plugins loaded
+[2018-01-20T15:49:13,581][INFO ][o.e.d.DiscoveryModule    ] [9eHyL-E] using discovery type [zen]
+[2018-01-20T15:49:14,313][INFO ][o.e.n.Node               ] initialized
+[2018-01-20T15:49:14,314][INFO ][o.e.n.Node               ] [9eHyL-E] starting ...
+[2018-01-20T15:49:14,637][INFO ][o.e.t.TransportService   ] [9eHyL-E] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-01-20T15:49:17,762][INFO ][o.e.c.s.MasterService    ] [9eHyL-E] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {9eHyL-E}{9eHyL-E1RUu7EV14o9LVfg}{mnHN6yPWTwi0NVGUApQbzA}{127.0.0.1}{127.0.0.1:9300}
+[2018-01-20T15:49:17,768][INFO ][o.e.c.s.ClusterApplierService] [9eHyL-E] new_master {9eHyL-E}{9eHyL-E1RUu7EV14o9LVfg}{mnHN6yPWTwi0NVGUApQbzA}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {9eHyL-E}{9eHyL-E1RUu7EV14o9LVfg}{mnHN6yPWTwi0NVGUApQbzA}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-01-20T15:49:17,935][INFO ][o.e.h.n.Netty4HttpServerTransport] [9eHyL-E] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-01-20T15:49:17,936][INFO ][o.e.n.Node               ] [9eHyL-E] started
+[2018-01-20T15:49:17,951][INFO ][o.e.g.GatewayService     ] [9eHyL-E] recovered [0] indices into cluster_state
+[2018-01-20T15:49:47,867][WARN ][o.e.c.r.a.DiskThresholdMonitor] [9eHyL-E] high disk watermark [90%] exceeded on [9eHyL-E1RUu7EV14o9LVfg][9eHyL-E][/home/sergio/Desktop/sowa/stack/ELK-sowa.io_linux_amd64/elasticsearch-6.1.2/data/nodes/0] free: 18.2gb[6.2%], shards will be relocated away from this node
+[2018-01-20T15:49:47,868][INFO ][o.e.c.r.a.DiskThresholdMonitor] [9eHyL-E] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-01-20T15:50:17,880][WARN ][o.e.c.r.a.DiskThresholdMonitor] [9eHyL-E] high disk watermark [90%] exceeded on [9eHyL-E1RUu7EV14o9LVfg][9eHyL-E][/home/sergio/Desktop/sowa/stack/ELK-sowa.io_linux_amd64/elasticsearch-6.1.2/data/nodes/0] free: 18.1gb[6.2%], shards will be relocated away from this node
+[2018-01-20T15:50:47,884][WARN ][o.e.c.r.a.DiskThresholdMonitor] [9eHyL-E] high disk watermark [90%] exceeded on [9eHyL-E1RUu7EV14o9LVfg][9eHyL-E][/home/sergio/Desktop/sowa/stack/ELK-sowa.io_linux_amd64/elasticsearch-6.1.2/data/nodes/0] free: 18.1gb[6.2%], shards will be relocated away from this node
+[2018-01-20T15:50:47,885][INFO ][o.e.c.r.a.DiskThresholdMonitor] [9eHyL-E] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-01-20T15:51:17,888][WARN ][o.e.c.r.a.DiskThresholdMonitor] [9eHyL-E] high disk watermark [90%] exceeded on [9eHyL-E1RUu7EV14o9LVfg][9eHyL-E][/home/sergio/Desktop/sowa/stack/ELK-sowa.io_linux_amd64/elasticsearch-6.1.2/data/nodes/0] free: 18gb[6.2%], shards will be relocated away from this node
+[2018-01-20T15:51:47,891][WARN ][o.e.c.r.a.DiskThresholdMonitor] [9eHyL-E] high disk watermark [90%] exceeded on [9eHyL-E1RUu7EV14o9LVfg][9eHyL-E][/home/sergio/Desktop/sowa/stack/ELK-sowa.io_linux_amd64/elasticsearch-6.1.2/data/nodes/0] free: 18gb[6.2%], shards will be relocated away from this node
+[2018-01-20T15:51:47,891][INFO ][o.e.c.r.a.DiskThresholdMonitor] [9eHyL-E] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-01-20T15:52:17,896][WARN ][o.e.c.r.a.DiskThresholdMonitor] [9eHyL-E] high disk watermark [90%] exceeded on [9eHyL-E1RUu7EV14o9LVfg][9eHyL-E][/home/sergio/Desktop/sowa/stack/ELK-sowa.io_linux_amd64/elasticsearch-6.1.2/data/nodes/0] free: 18gb[6.2%], shards will be relocated away from this node
+[2018-01-20T15:52:47,900][WARN ][o.e.c.r.a.DiskThresholdMonitor] [9eHyL-E] high disk watermark [90%] exceeded on [9eHyL-E1RUu7EV14o9LVfg][9eHyL-E][/home/sergio/Desktop/sowa/stack/ELK-sowa.io_linux_amd64/elasticsearch-6.1.2/data/nodes/0] free: 18gb[6.2%], shards will be relocated away from this node
+[2018-01-20T15:52:47,900][INFO ][o.e.c.r.a.DiskThresholdMonitor] [9eHyL-E] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-01-20T15:53:17,904][WARN ][o.e.c.r.a.DiskThresholdMonitor] [9eHyL-E] high disk watermark [90%] exceeded on [9eHyL-E1RUu7EV14o9LVfg][9eHyL-E][/home/sergio/Desktop/sowa/stack/ELK-sowa.io_linux_amd64/elasticsearch-6.1.2/data/nodes/0] free: 18gb[6.2%], shards will be relocated away from this node
+[2018-01-20T15:53:47,908][WARN ][o.e.c.r.a.DiskThresholdMonitor] [9eHyL-E] high disk watermark [90%] exceeded on [9eHyL-E1RUu7EV14o9LVfg][9eHyL-E][/home/sergio/Desktop/sowa/stack/ELK-sowa.io_linux_amd64/elasticsearch-6.1.2/data/nodes/0] free: 18gb[6.2%], shards will be relocated away from this node
+[2018-01-20T15:53:47,909][INFO ][o.e.c.r.a.DiskThresholdMonitor] [9eHyL-E] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2018-01-20T15:54:17,912][WARN ][o.e.c.r.a.DiskThresholdMonitor] [9eHyL-E] high disk watermark [90%] exceeded on [9eHyL-E1RUu7EV14o9LVfg][9eHyL-E][/home/sergio/Desktop/sowa/stack/ELK-sowa.io_linux_amd64/elasticsearch-6.1.2/data/nodes/0] free: 18gb[6.2%], shards will be relocated away from this node
+[2018-01-20T15:54:24,530][INFO ][o.e.n.Node               ] [9eHyL-E] stopping ...
+[2018-01-20T15:54:24,560][INFO ][o.e.n.Node               ] [9eHyL-E] stopped
+[2018-01-20T15:54:24,560][INFO ][o.e.n.Node               ] [9eHyL-E] closing ...
+[2018-01-20T15:54:24,571][INFO ][o.e.n.Node               ] [9eHyL-E] closed
